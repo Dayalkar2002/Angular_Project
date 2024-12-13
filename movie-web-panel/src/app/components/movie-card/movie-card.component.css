@@ -1,0 +1,25 @@
+.movie-card {
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .movie-card h3 {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
